@@ -920,6 +920,42 @@
       transition: all 0.4s ease-in-out;
       filter: grayscale(100%); 
     }
+    .contact-content-con {
+      flex-direction: column;
+    }
+    .contact-content-con .right-contact {
+      margin-left: 0;
+      margin-top: 2.5rem;
+    }
+  
+    .contact-content-con .right-contact .i-c-2 {
+      flex-direction: column;
+    }
+  
+    .contact-content-con .right-contact .i-c-2 :last-child {
+      margin-left: 0;
+      margin-top: 1.5rem;
+    }
+  
+    .contact-content-con .right-contact {
+      margin-bottom: 6rem;
+    }
+  
+    .contact-item {
+      flex-direction: column;
+      margin: 1rem 0;
+    }
+    .contact-item p {
+      font-size: 15px;
+      color: var(--color-grey-2);
+    }
+    .contact-item span {
+      font-size: 15px;
+    }
+    .contact-item .icon {
+      grid-template-columns: 25px 1fr;
+    }
+  
     .controls {
       top: auto;
       bottom: 0;
