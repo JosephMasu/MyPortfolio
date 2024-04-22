@@ -737,10 +737,7 @@
       text-align: center;
       padding-top: 2rem;
     }
-    .header-content .left-header .image {
-      margin: 0 auto;
-      width: 90%;
-    }
+
   }
   .about-container {
     grid-template-columns: repeat(1, 1fr);
@@ -885,10 +882,6 @@
     }
     .left-header .h-shape {
       display: none;
-    }
-    .left-header .image {
-      width: 90% !important;
-      margin: 0 auto !important;
     }
     .right-header {
       grid-row: 1;
